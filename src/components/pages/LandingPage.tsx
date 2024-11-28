@@ -70,7 +70,8 @@ const LandingPage: React.FC = () => {
             color: '#000',
           }
         }}
-      >
+      > 
+    
         <List>
           <ListItem button onClick={() => handleMenuClick('/workout')}>
             <ListItemText primary="Workouts" />
