@@ -72,7 +72,7 @@ const LandingPage: React.FC = () => {
         }}
       > 
     
-        <List>
+        <List> 
           <ListItem button onClick={() => handleMenuClick('/workout')}>
             <ListItemText primary="Workouts" />
           </ListItem>
